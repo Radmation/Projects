@@ -1,0 +1,261 @@
+/* colors */
+
+/****************************************
+*
+*    override jquery ui
+*
+*****************************************/
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    text-shadow: none;
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff;
+}
+
+.ui-input-text input, .ui-input-search input {
+    border: 5px solid white;
+    box-shadow: none;
+}
+.containing-element .ui-slider-switch {
+    width: 9em
+}
+.ui-page-theme-a .ui-slider-track .ui-btn-active {
+    background-color: red;
+}
+.ui-page-theme-a .ui-bar-inherit{
+    background-color: green;
+}
+.containing-element .ui-slider-switch .ui-slider-label{
+    color: #fff;
+}
+
+/****************************************
+*
+*    general styles
+*
+*****************************************/
+
+body {
+    background-color: #fff;
+}
+
+.app {
+
+}
+img{
+    width: 100%;
+}
+.half-img{
+    width: 40%;
+}
+/****************************************
+*
+*    FONT STYLES
+*
+*****************************************/
+.poiret {
+    font-family: "Poiret One", cursive;
+}
+
+.crimson {
+    font-family: "Crimson Text", cursive;
+}
+
+.lobster {
+    font-family: "Lobster Two", cursive;
+    text-shadow: none;
+}
+.ubuntu {
+    font-family: "Ubuntu", cursive;
+}
+/****************************************
+*
+*    helper styles
+*
+*****************************************/
+
+
+.text-orange {
+    color: #B27300;
+}
+
+.text-blue {
+    color: #3d4856;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.space-letters {
+    letter-spacing: .5em;
+}
+
+
+/****************************************
+*
+*    login page
+*
+*****************************************/
+
+.login_wrapper {
+    padding: 30px;
+    border: 2px solid #3d4856;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.border_text {
+    background: #fff;
+    z-index: 999;
+    position: absolute;
+    margin: 0 auto;
+    color: #3d4856; /* blue color */
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: .5em;
+    top: -20px;
+    right: 20px;
+    left: 20px;
+}
+
+.button {
+    color: #fff;
+    background: #3d4856;
+    padding: 20px;
+    width: 250px;
+    margin: 10px auto;
+    font-weight: 900;
+    font-size: 2em;
+    letter-spacing: 1em;
+}
+
+.button_sleek {
+    display: inline-block;
+    font-size: 2em;
+    color: #3d4856;
+    margin: 20px auto 5px auto;
+}
+
+.hr {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.hrbottom {
+    margin-top: 7px;
+}
+/****************************************
+*
+*    ICONS
+*
+*****************************************/
+#menu_icon{
+    position: absolute;
+    width: 30px;
+    right: 0;
+    margin: 10px 10px 0 0;
+}
+
+
+/****************************************
+*
+*    BILLS PAGE
+*
+*****************************************/
+#bills{
+    background: url(../images/background.png);
+    background-size: cover;
+}
+#add_bill{
+    margin: 100px 0 0 0;
+}
+#button_wrapper{
+    width: 150px;
+}
+
+/****************************************
+*
+*    MESSAGE STYLES
+*
+*****************************************/
+.message{
+    font-family: "Poiret One", cursive;
+    text-align: center;
+    border: 2px solid #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 0 10px 0;
+}
+.message span.title {
+    display: block;
+    font-weight: bold;
+    letter-spacing: .3em;
+    font-size: 1.2em;
+}
+.hidden{
+    visibility: collapse;
+}
+.error{
+    color: #ac2925;
+    border-color: #ac2925;
+    background: rgba(172,41,37,.5);
+}
+.success{
+    color: #28a54c;
+    border-color: #28a54c;
+    background: rgba(40,165,76,.5);
+}
+
+/****************************************
+*
+*    INPUT PLAEHOLDER STYLES
+*
+*****************************************/
+
+#username::-webkit-input-placeholder, #password::-webkit-input-placeholder {
+    font-family: "Ubuntu", cursive;
+    letter-spacing: .5em;
+    text-align: center;
+    color: #3d4856; /* blue color */
+    text-transform: uppercase;
+}
+
+#username:-moz-placeholder, #password:-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Ubuntu", cursive;
+    letter-spacing: .5em;
+    text-align: center;
+    color: #3d4856; /* blue color */
+    text-transform: uppercase;
+}
+
+#username::-moz-placeholder, #password::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Ubuntu", cursive;
+    letter-spacing: .5em;
+    text-align: center;
+    color: #3d4856; /* blue color */
+    text-transform: uppercase;
+}
+
+#username:-ms-input-placeholder, #password:-ms-input-placeholder {
+    font-family: "Ubuntu", cursive;
+    letter-spacing: .5em;
+    text-align: center;
+    color: #3d4856; /* blue color */
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,273 @@
+$turquoise: #fff; //head and footer color  complement #2ecc71
+$emerald: #f39c12;  //recent article - yellow
+$amethyst: #f39c12;   //the about me - yellow
+$asphalt: #f39c12;  // content and picture - yellow
+
+$darkgreen: #2a2c02;
+$white: #efe0b9;
+$yellow: #e4b04a;
+$brown: #643b0f;
+$orange: #b7521e;
+
+$brown1: #7a5230;
+$green1: #7a7730;
+$blue1: #30587a;
+$brownC: #a1856e;
+
+$green2: #666633;
+$brown2C: #664d33;
+$greenC: #888844;
+
+
+#content{
+  background-color: #fff;
+}
+#welcome {
+
+}
+.heading {
+
+}
+
+
+#content1{
+  background-color: #fff;
+}
+#welcome1 {
+
+}
+.heading1 {
+  margin-top: 10px;
+  color: #000;
+}
+
+
+#logo{
+  position: relative;
+  top: 20px;
+}
+#header{
+  background-color: $green1;
+  margin: 0;
+  padding-top: 10px;
+}
+.bold{
+  font-weight: bold;
+}
+.headtext{
+  color: #000;
+}
+.headsub{
+  color: #000;
+}
+.textblack{
+  color: $white;
+  padding-top: 10px;
+  font-size: 8pt;
+}
+.textcenter{
+text-align: center;
+}
+.code_image{
+  padding-top: 20px;
+}
+.greentext{ //this is for the NAV
+  font-size: 14pt;
+  color: $white;
+}
+.greentext:hover{
+  color: $brown1;
+}
+#article{ //this is the recent blogs on the index.php page
+  width: 100%;
+  background-color: $brown;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .title{
+    color: $white;
+  }
+}
+#comments{ //this is the comments right below blog post on the blog_show page
+  background-color: $brownC; //very light brown
+  color: $white;
+  .title{
+    color: $brown; //dark brown
+  }
+}
+#commentform{
+  background-color: $brownC;
+  .title{
+    color: $brown; //dark brown
+  }
+}
+
+#blog-post{ //this is the blog post on the blog_show page
+  width: 100%;
+  background-color: $white;
+  color: $brown1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  p{
+    color: $brown1;
+  }
+  h4{
+    color: $green1;
+  }
+}
+.blog-title{
+  color: $greenC;
+}
+#about{
+  background-color: $amethyst;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footer{
+  background-color: $green1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.container{
+  margin-top: 0;
+}
+
+#nav{
+  margin-top: 80px;
+}
+
+#nav ul li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+#nav ul li a img{
+  max-width: 100px;
+}
+a {
+  color: $brown1;
+}
+a:hover{
+  color: $greenC;
+}
+.go{
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  font-size: 18pt;
+}
+.go:hover{
+  color: #000;
+}
+.title{
+  color: #000;
+}
+.nounderline{
+  text-decoration: none;
+}
+#headerImage img {
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: auto;
+}
+img{
+    max-width: 100%;
+}
+
+
+#nav_foot{
+  margin-top: 20px;
+}
+
+#nav_foot ul li {
+  display: inline;
+  margin: 0 20px 0 0;
+  margin-bottom: 130px;
+}
+
+#nav_foot a {
+  text-decoration: none;
+}
+#nav_foot{
+  text-align: center;
+}
+
+.language{
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #fff;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+  font-family: Tahoma, Geneva, sans-serif;
+  color: $green1;
+}
+
+@media (max-width: 767px) {
+  #logo{
+    position: relative;
+    bottom: 50px;
+    display: none;
+  }
+  #saying{
+    padding: 0;
+    position: relative;
+    top: -1px;
+  }
+}
+
+.nav-sprite{
+  width: 75px;
+  height: 75px;
+}
+#home{
+  background: url(/images/home_button.png) 0 0; // X Y
+  background-size: 75px 150px;
+}
+
+#home:hover{
+  background-position: 0 -75px;
+}
+#login{
+  background: url(/images/login_button.png) 0 0; // X Y
+  background-size: 75px 150px;
+}
+
+#login:hover{
+  background-position: 0 -75px;
+}
+
+#blog{
+  background: url(/images/blog_button.png) 0 0; // X Y
+  background-size: 75px 150px;
+}
+
+#blog:hover{
+  background-position: 0 -75px;
+}
+
+#logout{
+  background: url(/images/logout_button.png) 0 0; // X Y
+  background-size: 75px 150px;
+}
+
+#logout:hover{
+  background-position: 0 -75px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+

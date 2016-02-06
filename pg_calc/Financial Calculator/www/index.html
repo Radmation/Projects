@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html><!-- use the np-app for angular -->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi"/>
+
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+    <!-- Ionic -->
+    <!--<link rel="stylesheet" type="text/css" href="css/ionic.min.css"/>-->
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Lobster+Two:700italic|Ubuntu:700|Crimson+Text'
+          rel='stylesheet' type='text/css'>
+
+    <title>Financial Calculator</title>
+</head>
+
+<!-- inject dynamic content into body, remove when done -->
+<!-- use single page application model - only -->
+<body>
+
+
+<div class="app"><!-- app div -->
+    <div id="deviceready">
+
+        <!-- home login page -->
+        <div data-role="page" id="home">
+
+
+            <div class="menu_wrap">
+                <a href="#menu" data-rel="dialog" data-transition="pop">
+                    <img src="img/menu_icon.png">
+                </a>
+            </div>
+
+            <div id="home_logo_wrap">
+                <img src="img/logo.jpg">
+            </div>
+
+            <div class="input_wrap" id="home_input_wrap">
+                <input class="my_input input_home" type="text" id="email" data-mini="true" placeholder="Email"/>
+                <input class="my_input input_home" type="password" id="password" data-mini="true" placeholder="Password"/>
+            </div>
+
+
+            <!-- BUTTON HERE -->
+            <div class="button_wrap">
+                <div class="button ubuntu text-center big" id="enter">ENTER</div>
+            </div>
+
+            <div class="message hidden"></div>
+
+            <div data-role="footer" data-position="fixed" id="home_foot">
+                <div class="text-center ubuntu" id="free_text">
+                    FEEL FREE TO USE<br>OUR FINANCIAL CALCULATOR
+                </div>
+                <div class="button_wrap no_margin_top">
+                    <img src="img/calc_icon.png" id="calc_icon">
+
+                    <div class="button ubuntu text-center" id="calc_btn">FINANCIAL CALCULATOR</div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- end home login page -->
+
+        <!-- menu popup -->
+        <div data-role="page" id="menu">
+
+            <div class="menu_wrap">
+                <a class="close_btn">
+                    <img src="img/close_menu_icon.png">
+                </a>
+            </div>
+
+            <div class="nav_wrap">
+                <div class="button_wrap">
+                    <a href="#create_page" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="create_account_btn">CREATE AN ACCOUNT</div>
+                    </a>
+                </div>
+
+                <!-- BUTTON HERE -->
+                <div class="button_wrap">
+                    <a href="#about" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="about_btn">ABOUT</div>
+                    </a>
+                </div>
+
+                <!-- BUTTON HERE -->
+                <div class="button_wrap">
+                    <a href="#support_page" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="support_btn">SUPPORT</div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- dialog NEW PAGE-->
+        <div data-role="page" id="create_page" class="inner_page">
+
+            <div class="header">
+                <h5 class="ubuntu text-center">WELCOME TO</h5>
+                <div class="button_wrap">
+                    <div class="button ubuntu text-center big">ELEVATION</div>
+                </div>
+                <img src="img/comma.png" class="comma_img">
+            </div>
+
+
+            <div class="input_wrap">
+                <input class="my_input input_home" type="text" id="first_name" data-mini="true" placeholder="First Name"/>
+                <input class="my_input input_home" type="text" id="last_name" data-mini="true" placeholder="Last Name"/>
+                <input class="my_input input_home" type="text" id="email_new" data-mini="true" placeholder="Email"/>
+                <input class="my_input input_home" type="password" id="password_new" data-mini="true" placeholder="Password"/>
+                <input class="my_input input_home" type="password" id="password_confirm" data-mini="true" placeholder="Confirm Password"/>
+            </div>
+
+            <div class="button_wrap margin_top">
+                <div class="button button_green ubuntu text-center big" id="create_btn">CREATE</div>
+            </div>
+
+            <div class="message hidden"></div>
+
+        </div>
+        <!-- dialog END NEW PAGE -->
+
+
+        <!-- about page -->
+        <div data-role="page" id="about">
+
+            <div class="header">
+                <h5 class="ubuntu text-center">ABOUT</h5>
+                <div class="button_wrap">
+                    <div class="button ubuntu text-center big">ELEVATION</div>
+                </div>
+                <img src="img/comma.png" class="comma_img">
+            </div>
+
+
+            <div class="input_wrap text-center">
+                <h4 class="ubuntu text-bold">FOCUSED ON DESTROYING DEBT,</h4>
+                <h4 class="ubuntu text-gray text-italic">WE CARE ABOUT YOU</h4>
+                <h4 class="ubuntu text-bold">OUR TEAM CREATED A DATA</h4>
+                <h4 class="ubuntu text-bold">DRIVEN FINANCIAL MONITOR</h4>
+                <h4 class="ubuntu text-gray text-italic">AND NOT TO MENTION</h4>
+                <h4 class="ubuntu text-bold">AN ALGORITHM AIMED TO</h4>
+                <h4 class="ubuntu text-bold">TRACK LONGTERM GOALS.</h4>
+                <h4 class="ubuntu text-gray text-italic">WE ARE CONTROL FREAKS</h4>
+            </div>
+
+
+            <div class="message hidden"></div>
+
+            <div class="text-center" style="margin-top: 80px;">
+                <h5 class="ubuntu text-center" style="position: relative; top: 25px;">LEARN MORE AT</h5>
+                <h2 class="ubuntu text-center">ZENSTUDIOS.CO</h2>
+            </div>
+
+        </div>
+        <!-- end about page -->
+
+
+        <!-- support page -->
+        <div data-role="page" id="support_page">
+
+            <div class="header" style="padding-top: 20px; ">
+                <div class="button_wrap">
+                    <div class="button ubuntu text-center big">SUPPORT</div>
+                </div>
+            </div>
+
+
+            <div class="text-center" style="margin-top: 60px;">
+                <h5 class="ubuntu text-center" style="position: relative; top: 25px;">PLEASE EMAIL</h5>
+                <h2 class="ubuntu text-center">INFO@ZENSTUDIOS.CO</h2>
+            </div>
+
+            <div class="text-center" style="margin-top: 60px;">
+                <h5 class="ubuntu text-center" style="position: relative; top: 25px;">OR VISIT</h5>
+                <h2 class="ubuntu text-center">SOMEWEBPAGE.CO</h2>
+            </div>
+
+            <img src="img/logo_gray.jpg" class="foot_logo">
+
+            <div class="message hidden"></div>
+
+        </div>
+        <!-- end support page -->
+
+        <!-- welcome page -->
+        <div data-role="page" id="welcome_page">
+
+            <div class="header">
+                <h5 class="ubuntu text-center">WELCOME TO</h5>
+                <div class="button_wrap">
+                    <div class="button ubuntu text-center big">ELEVATION</div>
+                </div>
+                <img src="img/comma.png" class="comma_img">
+            </div>
+
+
+            <h1>FIRST NAME</h1>
+            <h3>LAST NAME</h3>
+
+            <div id="quote">
+                
+            </div>
+
+            <img src="img/logo_gray.jpg" class="foot_logo">
+
+            <div class="message hidden"></div>
+
+        </div>
+        <!-- end welcome page -->
+
+
+
+    </div>
+    <!-- end device ready -->
+</div>
+<!-- app end -->
+
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<!-- ionic-->
+<!--<script type="text/javascript" src="js/ionic.min.js"></script>-->
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<!-- test -->
+<script type="text/javascript" src="js/apicaller.js"></script>
+
+<script type="text/javascript" src="js/helper.js"></script>
+
+
+<script type="text/javascript">
+    app.initialize();
+    $.support.cors = true;
+</script>
+
+
+</body>
+</html>

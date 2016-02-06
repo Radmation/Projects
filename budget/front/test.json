@@ -1,0 +1,9 @@
+{
+    "ecn_request" : {
+        "controller": "bill",
+        "action" : "read",
+        "username" : "radley",
+        "userpass" : "radley123"
+    }
+
+}

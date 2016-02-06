@@ -1,0 +1,135 @@
+/* COLORS
+
+Brightwood Blue = #008BCD;  use at 60 percent and 35 percent opacity only
+Web color DarkBlue = #00638E;
+
+Brightwood Gray = #4C4F55;  main
+Web color Gray 1 = #3F4449; dark
+Web color Gray 2 = #A8B2AA; lighter
+Web color Gray 3 = #D1D8D6; even lighter
+Web color Gray 4 = #F2F4F4; lightest
+
+END COLORS */
+
+@font-face {
+    font-family: sailec;
+    src: url("../fonts/Sailec.eot") format("eot"), url("../fonts/Sailec.otf") format("opentype");
+}
+@font-face {
+    font-family: sailec_i;
+    src: url("../fonts/Sailec_italic.eot") format("eot"), url("../fonts/Sailec_italic.otf") format("opentype");
+}
+@font-face {
+    font-family: helveticaneue;
+    src: url("../fonts/HelveticaNeuePro.eot") format("eot"), url("../fonts/HelveticaNeuePro.otf") format("opentype");
+}
+@font-face {
+    font-family: newbaskerville;
+    src: url("../fonts/NWB55.eot") format("eot"), url("../fonts/NWB55.otf") format("opentype");
+}
+body{
+    font-family: helveticaneue, arial, sans-serif;
+    color: #4C4F55;
+}
+h1,h2, h3, h4 {
+    font-family: sailec, arial, sans-serif;
+    color: #008BCD;
+    display:block;
+}
+p{
+    display:block;
+}
+label{
+    color: #008BCD;
+}
+
+
+.quotes {
+    font-family: newbaskerville, arial, sans-serif;
+}
+.helvetica{
+    font-family: helveticaneue, arial, sans-serif;
+}
+.sailec {
+    font-family: sailec, arial, sans-serif;
+}
+.sailec_i {
+    font-family: sailec_i, arial, sans-serif;
+}
+.newbaskerville{
+    font-family: newbaskerville, arial, sans-serif;
+}
+.i {
+    font-style: italic;
+}
+.dark_gray{
+    color: #4C4F55;
+}
+.phone_top {
+    color: #00638E;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+
+#phone_wrap{
+    text-align: right;
+    padding-top: 40px;
+}
+#header_image{
+    margin: 0 50px 0 50px;
+
+}
+#form{
+    width: 380px;
+    position: absolute;
+    left: 900px;
+    top: 140px;
+    /*top right bottom left */
+    padding: 30px 10px 22px 10px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.2)), color-stop(70%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.2) 0%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', endColorstr='#ffffff',GradientType=0 );
+    -moz-box-shadow: 0px 0px 32px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0px 0px 32px rgba(0,0,0,.3);
+    box-shadow: 0px 0px 32px rgba(0,0,0,.3);
+}
+#form .form-group {
+     width: 80%;
+     margin: auto;
+ }
+#form .select_block {
+    width: 80%;
+    margin: auto;
+}
+#submit_btn {
+    font-size: 1.875em;
+    padding: 0;
+    font-weight: 500;
+    width: 60%;
+    color: white;
+    background-color: #de6830;
+    border: 3px solid #ba5532;
+    border-radius: 10px;
+    -moz-box-shadow: 6px 6px 16px rgba(0,0,0,.15);
+    -webkit-box-shadow: 6px 6px 16px rgba(0,0,0,.15);
+    box-shadow: 6px 6px 16px rgba(0,0,0,.15);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+    margin-bottom: 24px;
+    margin-top: 18px;
+}
+#sif_disclaimer{
+    font-size: .7em;
+    color: black;
+    line-height: 1.4em;
+}
+.policy{
+    margin-top: 20px;
+    font-size: .7em;
+    color: black;
+}
+

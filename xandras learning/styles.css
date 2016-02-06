@@ -1,0 +1,48 @@
+body{
+    background: url(minecraft.jpg);
+}
+h1{
+    color: greenyellow;
+}
+h2{
+    color: deepskyblue;
+}
+h3{
+    color: cyan;
+}
+
+p{
+    color: fuchsia;
+}
+
+label {
+    color: #fff;
+}
+form{
+    margin-left: 20px;
+    border: 2px solid #fff;
+    padding: 10px;
+    width: 50%;
+}
+select{
+    width: 250px;
+    height: 40px;
+}
+form label:first-child{
+    margin-top: 50px;
+    display: block;
+}
+input[type=text]{
+    width: 250px;
+    height: 40px;
+}
+textarea{
+    width: 250px;
+    height: 40px;
+}
+#submit{
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+}

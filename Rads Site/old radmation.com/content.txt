@@ -1,0 +1,17 @@
+blog_list.php
+index.php
+login.php
+blog.php
+blog_admin.php
+blog_new.php
+blog_show.php    blog_show.php?blog_id=73
+blog_edit.php
+blog_delete.php
+
+colors -
+
+red - #C0392B
+black - #404148
+gray - #BDC3C7
+
+

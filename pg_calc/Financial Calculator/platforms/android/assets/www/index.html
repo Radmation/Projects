@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html><!-- use the np-app for angular -->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+    <!-- Ionic -->
+    <!--<link rel="stylesheet" type="text/css" href="css/ionic.min.css"/>-->
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Lobster+Two:700italic|Ubuntu:700|Crimson+Text' rel='stylesheet' type='text/css'>
+
+    <title>Financial Calculator</title>
+</head>
+
+<!-- inject dynamic content into body, remove when done -->
+<!-- use single page application model - only -->
+<body>
+
+
+<div class="app"><!-- app div -->
+    <div id="deviceready">
+
+        <!-- page -->
+        <div data-role="page">
+
+            <div class="page_wrap">
+                <h1 class="lobster text-orange text-center">welcome to</h1>
+
+                <div class="login_wrapper text-center">
+                    <div class="text-center">
+                        <span class="space_letters border_text ubuntu text-center">&nbsp;WHITEBOARD</span>
+                    </div>
+                    <a href="#login" data-transition="slide" data-back="true">
+                        <div class="button ubuntu text-center">LOGIN</div>
+                    </a>
+                </div>
+
+                <div class="text-center">
+                    <div class="button_sleek text-center crimson"><hr class="hr hrtop">sign up here<hr class="hr hrbottom"></div>
+                </div>
+                <h1 class="lobster text-orange text-center">a smarter than normal</h1>
+                <h4 class="poiret text-blue text-center space-letters">FINANCIAL CALCULATOR</h4>
+            </div>
+
+
+            <p class="event listening"></p>
+
+            <p class="event received"></p>
+
+            <p id="info"></p>
+
+        </div>
+        <!-- end page -->
+
+
+        <!-- dialog LOGIN PAGE-->
+        <div data-role="page" id="login">
+            <h1 class="lobster text-orange text-center">login</h1>
+
+
+                <input type="text" id="username" data-mini="true" placeholder="Username"/>
+                <input type="password" id="password" data-mini="true" placeholder="Password"/>
+                <div class="button ubuntu text-center" id="enter">ENTER</div>
+                <div class="message hidden"></div>
+
+
+            <div class="text-center">
+                <br>
+
+                <div class="button_sleek text-center crimson">
+                    <hr class="hr hrtop">
+                    forgot my password
+                    <hr class="hr hrbottom">
+                </div>
+            </div>
+
+            <h1 class="lobster text-orange text-center">a smarter than normal</h1>
+            <h4 class="poiret text-blue text-center space-letters">FINANCIAL CALCULATOR</h4>
+        </div>
+        <!-- dialog END LOGIN PAGE -->
+
+
+        <!-- bills page -->
+        <div data-role="page" id="bills">
+
+            <div id="menu_icon">
+                <img src="images/menu_icon.png" alt="" rel="">
+            </div>
+
+            <div id="add_bill">
+                <div>
+                    <!--<div class="containing-element">-->
+                        <!--<select name="flip-min" id="flip-min" data-role="slider">-->
+                            <!--<option value="debt">DEBT</option>-->
+                            <!--<option value="income">INCOME</option>-->
+                        <!--</select>-->
+                    <!--</div>-->
+                    <div id="button_wrapper">
+                        <img src="images/red_active_btn.png" id="red_btn" class="half-img">
+                        <img src="images/green_inactive_btn.png" id="green_btn" class="half-img">
+                    </div>
+
+                    <input type="text" id="bill_name" data-mini="true" placeholder="name"/>
+                </div>
+
+                <input type="password" id="bill_amount" data-mini="true" placeholder="amount"/>
+                <input type="password" id="bill_frequency" data-mini="true" placeholder="frequency"/>
+                <input type="password" id="bill_duration" data-mini="true" placeholder="duration"/>
+                <input type="password" id="bill_interest" data-mini="true" placeholder="interest"/>
+                <div class="button ubuntu text-center" id="btn_add_bill">ADD</div>
+            </div>
+
+            <p class="event listening"></p>
+                Im ws new page.
+            <p class="event received"></p>
+        </div>
+        <!-- end bills page -->
+
+
+    </div>
+    <!-- end device ready -->
+</div>
+<!-- app end -->
+
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<!-- ionic-->
+<!--<script type="text/javascript" src="js/ionic.min.js"></script>-->
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<!-- test -->
+<script type="text/javascript" src="js/apicaller.js"></script>
+
+<script type="text/javascript" src="js/helper.js"></script>
+
+
+<script type="text/javascript">
+    app.initialize();
+    $.support.cors=true;
+</script>
+
+
+
+</body>
+</html>
