@@ -41,6 +41,7 @@ $("#green_btn").click( function() {
 
 $(".close_btn").click( function () {
     $('.ui-dialog').dialog('close');
+    return false;
 });
 
 $("#create_account_btn").click( function () {

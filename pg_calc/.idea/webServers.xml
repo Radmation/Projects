@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f7e6540e-9026-4555-ae7a-20866fb3df95" name="app - Developement" url="http://kb-demos.com">
+        <fileTransfer host="kb-demos.com" port="21" rootFolder="/public_html/app/" password="df8bdfebdfc4dfc3dfc7dfcbdfdedfc3dfc5dfc4df98df96dfd9dfc9dfd8dfc3dfdadfdedf94" username="kbdemosc">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

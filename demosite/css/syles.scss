@@ -1,0 +1,151 @@
+$green : #77c043;
+$black: #000;
+$gray: #999;
+
+/******************
+   Navigation
+******************/
+nav{
+  background-color: $black;
+  padding: 0 0 0 0; /* top right bottom left */
+
+  ul{
+    padding-right: 50px;
+  }
+  ul.nav li a{
+    font-size: 1.6em;
+    color: $gray;
+    padding: 60px 20px 20px 20px;
+  }
+  ul.nav li a:hover{
+    background-color: #555;
+  }
+  #logo{
+    max-width: 375px;
+  }
+
+}
+
+/******************
+   Hero
+******************/
+
+#img_wrap{
+  padding: 0;
+  margin: 0;
+}
+
+#hero_statement{
+  text-shadow: 0 0 10px #000;
+  position: absolute;
+  right:0;
+  left: 0;
+  top: 250px;
+
+  h1:nth-of-type(1){
+    font-size: 4em;
+  }
+  h1:nth-of-type(2){
+    font-size: 7.3em;
+    position: relative;
+    top: -30px;
+  }
+  h1:nth-of-type(3){
+    font-size: 6em;
+    position: relative;
+    top: -70px;
+  }
+
+}
+
+/******************
+   Intro
+******************/
+#intro{
+  background-color: $green;
+  margin: 0;
+}
+#intro h1{
+  font-size: 3.5em;
+  padding: 60px;
+  margin: 0;
+}
+#intro img{
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+#intro p{
+  font-size: 1.2em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/******************
+   Services
+******************/
+#services h1{
+  font-size: 3.5em;
+  padding: 60px;
+  margin: 0;
+}
+
+
+
+/******************
+   Helper Styles
+******************/
+h1 sub{
+  font-size: .5em;
+  bottom: 1em;
+}
+
+section{
+  margin: 0;
+}
+
+
+.text-bold{
+  font-weight: bold;
+}
+.text-white{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -51,7 +51,7 @@
     <div id="deviceready">
 
         <!-- home login page -->
-        <div data-role="page" id="home">
+        <div data-role="page" id="home_page">
 
 
             <div class="menu_wrap">
@@ -92,41 +92,6 @@
         </div>
         <!-- end home login page -->
 
-        <!-- menu popup -->
-        <div data-role="page" id="menu">
-
-            <div class="menu_wrap">
-                <a class="close_btn">
-                    <img src="img/close_menu_icon.png">
-                </a>
-            </div>
-
-            <div class="nav_wrap">
-                <div class="button_wrap">
-                    <a href="#create_page" data-transition="fade">
-                        <div class="menu_btn button ubuntu text-center" id="create_account_btn">CREATE AN ACCOUNT</div>
-                    </a>
-                </div>
-
-                <!-- BUTTON HERE -->
-                <div class="button_wrap">
-                    <a href="#about" data-transition="fade">
-                        <div class="menu_btn button ubuntu text-center" id="about_btn">ABOUT</div>
-                    </a>
-                </div>
-
-                <!-- BUTTON HERE -->
-                <div class="button_wrap">
-                    <a href="#support_page" data-transition="fade">
-                        <div class="menu_btn button ubuntu text-center" id="support_btn">SUPPORT</div>
-                    </a>
-                </div>
-            </div>
-
-
-        </div>
-
-
         <!-- dialog NEW PAGE-->
         <div data-role="page" id="create_page" class="inner_page">
 
@@ -156,9 +121,8 @@
         </div>
         <!-- dialog END NEW PAGE -->
 
-
         <!-- about page -->
-        <div data-role="page" id="about">
+        <div data-role="page" id="about_page">
 
             <div class="header">
                 <h5 class="ubuntu text-center">ABOUT</h5>
@@ -190,7 +154,6 @@
 
         </div>
         <!-- end about page -->
-
 
         <!-- support page -->
         <div data-role="page" id="support_page">
@@ -231,8 +194,8 @@
             </div>
 
 
-            <h1>FIRST NAME</h1>
-            <h3>LAST NAME</h3>
+            <h2 id="output_fn" class="poiret text-center">FIRST NAME</h2>
+            <h5 id="output_ln" class="poiret text-center">LAST NAME</h5>
 
             <div id="quote">
                 
@@ -245,7 +208,118 @@
         </div>
         <!-- end welcome page -->
 
+        <!-- overview page -->
+        <div data-role="page" id="overview_page">
 
+            <div class="menu_wrap">
+                <a href="#menu_internal" data-rel="dialog" data-transition="pop">
+                    <img src="img/menu_icon.png">
+                </a>
+            </div>
+
+            <div id="home_logo_wrap_small">
+                <img src="img/logo.jpg">
+            </div>
+
+
+            <p class="output" id="date">JAN 13, 2015</p>
+
+            <div class="center_bar">
+                <span><img class="arrow" id="arrow_left" src="images/arrow_left.png"></span>
+                <p class="output ubuntu" id="">RENT 850</p>
+                <span><img class="arrow" id="arrow_right" src="images/arrow_right.png"></span>
+            </div>
+
+            <div id="add_var">
+                <img id="add_var_btn" src="images/add_var.png">
+                <div class="var_text_wrap">
+                    <p class="text-bold">ADD A FINANCIAL OBLIGATION</p>
+                    <p class="text-gray text-italic">I.E. BILL, PAYCHECK, LOAN, ECT..</p>
+                </div>
+            </div>
+
+
+            <div class="ui-footer-fixed footer_nav">
+               <div class="total_wrap">
+                   <p class="ubuntu">TOTAL NET <span class="text-green" id="total_amount">546</span></p>
+               </div>
+            </div>
+
+
+        </div>
+        <!-- end overview page -->
+
+        <!---------------------------------------------------
+        ----------------------- MENUS -----------------------
+        ---------------------------------------------------->
+        <!-- menu popup -->
+        <div data-role="page" id="menu_internal">
+
+            <div class="menu_wrap">
+                <a class="" href="#overview_page">
+                    <img class="close_image" src="img/close_menu_icon.png">
+                </a>
+            </div>
+
+            <div class="nav_wrap">
+                <div class="button_wrap">
+                    <a href="#create_page" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="create_account_btn">CREATE AN ACCOUNT</div>
+                    </a>
+                </div>
+
+                <!-- BUTTON HERE -->
+                <div class="button_wrap">
+                    <a href="#about_page" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="about_btn">ABOUT</div>
+                    </a>
+                </div>
+
+                <!-- BUTTON HERE -->
+                <div class="button_wrap">
+                    <a href="#support_page" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="support_btn">SUPPORT</div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- end menu popup -->
+        <!-- menu popup -->
+        <div data-role="page" id="menu">
+
+            <div class="menu_wrap">
+                <a class="" href="#home_page">
+                    <img class="close_img" src="img/close_menu_icon.png">
+                </a>
+            </div>
+
+            <div class="nav_wrap">
+                <div class="button_wrap">
+                    <a href="#create_page" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="create_account_btn">CREATE AN ACCOUNT</div>
+                    </a>
+                </div>
+
+                <!-- BUTTON HERE -->
+                <div class="button_wrap">
+                    <a href="#about_page" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="about_btn">ABOUT</div>
+                    </a>
+                </div>
+
+                <!-- BUTTON HERE -->
+                <div class="button_wrap">
+                    <a href="#support_page" data-transition="fade">
+                        <div class="menu_btn button ubuntu text-center" id="support_btn">SUPPORT</div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- end menu popup -->
 
     </div>
     <!-- end device ready -->
@@ -261,6 +335,7 @@
 <!--<script type="text/javascript" src="js/ionic.min.js"></script>-->
 
 <script type="text/javascript" src="cordova.js"></script>
+
 <script type="text/javascript" src="js/index.js"></script>
 
 <!-- test -->
@@ -268,6 +343,7 @@
 
 <script type="text/javascript" src="js/helper.js"></script>
 
+<script type="text/javascript" src="js/page_transitions.js"></script>
 
 <script type="text/javascript">
     app.initialize();
