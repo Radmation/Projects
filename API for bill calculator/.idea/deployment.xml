@@ -37,13 +37,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="ROOT - Radmation.com ">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="ROOT-kb-demos">
         <serverdata>
           <mappings>
@@ -55,13 +48,6 @@
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="dev - radmation.com">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -80,20 +66,6 @@
         </serverdata>
       </paths>
       <paths name="kciforyou.com">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="radmation.com / FINANCIAL CALC">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="radmation.com Budget">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

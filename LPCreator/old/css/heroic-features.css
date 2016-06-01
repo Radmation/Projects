@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.navbar-brand{
+    max-width: 200px;
+}
+#nav-bar{
+    background-color: #fff;
+    padding: 10px 0 40px 0;
+}
+.navbar-right.pad-right {
+    padding-right: 20px;
+}
+.text-green{
+    color: #9ABB50;
+}
+iframe {
+    width: 1400px;;
+    height: 1500px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 25px #666;
+
+    -ms-zoom: 0.45;
+    -moz-transform: scale(0.45);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.45);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.45);
+    -webkit-transform-origin: 0 0;
+}
+
+.focused {
+    background-color: yellow;
+}
+#ajax_form_wrap{
+    border-right: 1px solid #eee;
+}
+#form_wrap{
+    background-color: #9ABB50;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 6px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+#form_wrap h2 {
+    color: #fff;
+}
+
+#start button{
+    width: 100%;
+    margin-top: 10px;
+}
+.text-bold{
+    font-weight: bold;
+}
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+.no-pad {
+    padding: 0;
+}

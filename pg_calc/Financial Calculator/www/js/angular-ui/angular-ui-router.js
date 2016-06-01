@@ -1427,7 +1427,7 @@ function $UrlMatcherFactory() {
    * @returns {Object}  Returns `$urlMatcherFactoryProvider`.
    *
    * @example
-   * This is a simple example of a custom type that encodes and decodes items from an
+   * This is a simple example of a custom type that encodes and decodes user_details from an
    * array, using the array index as the URL-encoded value:
    *
    * <pre>

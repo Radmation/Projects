@@ -2,8 +2,15 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f7e6540e-9026-4555-ae7a-20866fb3df95" name="app - Developement" url="http://kb-demos.com">
-        <fileTransfer host="kb-demos.com" port="21" rootFolder="/public_html/app/" password="df8bdfebdfc4dfc3dfc7dfcbdfdedfc3dfc5dfc4df98df96dfd9dfc9dfd8dfc3dfdadfdedf94" username="kbdemosc">
+      <webServer id="76005397-3c20-4322-967f-b1d0eac17791" name="radmation.com" url="http://radmation.com">
+        <fileTransfer host="radmation.com" port="21" password="df9bdfebdfc4dfc3dfc7dfcbdfdedfc3dfc5dfc4df98" username="nucniyex">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="71e6e11e-fc4b-4e4e-b098-60cadf404dab" name="APP - Development" url="http://radmation.com">
+        <fileTransfer host="radmation.com" port="21" rootFolder="/public_html/pg_calc/" password="df9bdfebdfc4dfc3dfc7dfcbdfdedfc3dfc5dfc4df98" username="nucniyex">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

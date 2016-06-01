@@ -55,56 +55,6 @@ $.extend(Apicaller.prototype, {
 
 
 
-$("#create_btn").click(function () {
-
-    var apicaller = new Apicaller('APP001', '28e336ac6c9423d946ba02d19c6a2632', 'http://kb-demos.com/app/api/');
-    // get the values of the text boxes
-    var first_name = $('#first_name').val();
-    var last_name = $('#last_name').val();
-    var email = $('#email_new').val();
-    var password = $('#password_new').val();
-    var password_confirm = $('#password_confirm').val();
-
-    // validate form
-    if (first_name == "" || last_name == "" || email == "" || password == "" || password_confirm == "") {
-        alert('form fields cannot be empty');
-    } else if (password != password_confirm) {
-        alert('passwords dont match');
-    } else {
-        // todo: encrypt these
-        var request_params = {
-            "controller": "user",
-            "action": "create",
-            "first_name": first_name,
-            "last_name": last_name,
-            "email": email, // cache these
-            "password": password
-        };
-
-        // getting bills here
-        var json_data = apicaller.sendRequest(request_params); // returns object
-
-        json_data.success(function (data) { // get object data like this
-            //        var d = data;
-            var message = $(".message");
-
-            if (data.success == true) {
-                alert("true");
-            } else {
-                alert("false");
-            }
-
-            //alert(JSON.stringify(data));
-
-        }); // end success
-
-        $.mobile.pageContainer.pagecontainer("change", "#login", {transition: "fade"});
-    }
-
-    // send data to api server
-
-
-});
 
 
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d6e1508f-9107-4a79-ae36-6e5ed49b298c" name="LPCreator - Development" url="http://ftp.kbnetleads.com">
+        <fileTransfer host="ftp.kbnetleads.com" port="21" password="dfe8dfeedf9fdffbdf9edf92dfffdfdddffedfc2dffedfe1" username="dev@charterschoollocator.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f4e488fd-67ef-439b-9aa0-b4c1c3b9f539" name="PrintMyCup - Development" url="http://ftp.zenstudiosdemos.co">
+        <fileTransfer host="ftp.zenstudiosdemos.co" port="21" rootFolder="/public_html/pmc/" password="df9bdfebdfc4dfc3dfc7dfcbdfdedfc3dfc5dfc4df98" username="radmation1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

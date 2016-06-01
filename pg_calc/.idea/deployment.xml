@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="app - Developement">
+  <component name="PublishConfigData" autoUpload="Always" serverName="APP - Development">
     <serverData>
+      <paths name="APP - Development">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Bluecliff College">
         <serverdata>
           <mappings>
@@ -44,13 +51,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="app - Developement">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="bill calc">
         <serverdata>
           <mappings>
@@ -73,6 +73,13 @@
         </serverdata>
       </paths>
       <paths name="kciforyou.com">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="radmation.com">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

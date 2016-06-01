@@ -37,13 +37,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="ROOT - Radmation.com ">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="ROOT-kb-demos">
         <serverdata>
           <mappings>
@@ -65,13 +58,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="dev - radmation.com">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="inbc zipline">
         <serverdata>
           <mappings>
@@ -87,20 +73,6 @@
         </serverdata>
       </paths>
       <paths name="kciforyou.com">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="radmation.com / FINANCIAL CALC">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="radmation.com Budget">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

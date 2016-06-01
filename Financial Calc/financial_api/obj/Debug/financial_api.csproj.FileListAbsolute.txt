@@ -1,0 +1,6 @@
+c:\Projects\Financial Calc\financial_api\financial_api\bin\financial_api.dll.config
+c:\Projects\Financial Calc\financial_api\financial_api\bin\financial_api.dll
+c:\Projects\Financial Calc\financial_api\financial_api\bin\financial_api.pdb
+c:\Projects\Financial Calc\financial_api\financial_api\obj\Debug\financial_api.csprojResolveAssemblyReference.cache
+c:\Projects\Financial Calc\financial_api\financial_api\obj\Debug\financial_api.dll
+c:\Projects\Financial Calc\financial_api\financial_api\obj\Debug\financial_api.pdb
