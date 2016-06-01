@@ -149,7 +149,7 @@ EOD;
         <div class="row text-center">
             <div class="col-md-4 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="../_images/national.jpg" alt="National">
+                    <img src="../images/national.jpg" alt="National">
                     <div class="caption">
                         <h3>National Reach</h3>
                         <p>We can match you with the charter schools in your area no matter where you live!</p>
@@ -158,7 +158,7 @@ EOD;
             </div>
             <div class="col-md-4 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="../_images/trusted.jpg" alt="Trusted">
+                    <img src="../images/trusted.jpg" alt="Trusted">
                     <div class="caption">
                         <h3>Most Trusted Source</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -167,7 +167,7 @@ EOD;
             </div>
             <div class="col-md-4 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="../_images/expert.jpg" alt="Expert">
+                    <img src="../images/expert.jpg" alt="Expert">
                     <div class="caption">
                         <h3>Charter School Experts</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>

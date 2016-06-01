@@ -5,7 +5,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
 
 } else {
     $_SESSION['message'] = "You have to be logged in to view that page.";
-    header('Location: http://charterschoollocator.com/login.php');
+    header('Location: login.php');
 }
 
 
@@ -50,7 +50,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
-                <img src="../_images/logo.png" class="img-responsive">
+                <img src="images/logo.png" class="img-responsive">
 
             </a>
         </div>
@@ -132,7 +132,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-10">
                                 <button id="create" type="submit" class="btn btn-lg btn-success">Create Landing Pages!</button>
-                                <a target="_blank" href="template" class="btn btn-lg btn-primary">Preview</a>
+                                <a target="_blank" href="front-end" class="btn btn-lg btn-primary">Preview</a>
                             </div>
                         </div>
 
@@ -144,7 +144,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
                 </div>
 
                 <div class="col-md-6">
-                    <iframe src="../template/">
+                    <iframe src="front-end/">
                         <p>Your browser does not support iframes.</p>
                     </iframe>
                 </div>

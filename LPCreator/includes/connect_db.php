@@ -15,8 +15,9 @@ session_start();
  */
 
 $host = "localhost";
-$username = "charterschool";
-$password = "sZ58ybemktbW";
+$username = "radley";
+$password = "1Animation2";
+$db_name = "custompapercup";
 
 $email = "";
 
@@ -26,7 +27,7 @@ $can_log_in = false;
 // sanitize the inputs
 if(isset($_POST['email']) && isset($_POST['password'])){
     // create connection object
-    $conn = new mysqli($host, $username, $password);
+    $conn = new mysqli($host, $username, $password, $db_name);
     // sanitize the inputs
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
@@ -37,24 +38,30 @@ if(isset($_POST['email']) && isset($_POST['password'])){
     else {
         //echo "Success!"; // de bugging
     }
-    // Change database to "charterschool"
-    mysqli_select_db($conn,"charterschool");
 
-    //run the store function -> returns row
-    $result = mysqli_query($conn, "SELECT fnIsValidLogin('$email', '$password')") or die("Query fail: " . mysqli_error());
 
-    $can_log_in = 0; // default to cannot log in
+//    echo $email . "<br>";
+//    echo "radmation@yahoo.com<br>";
+//    echo "animation1" . "<br>";
+//    echo $password . " END --  ";
 
-    while ($row = mysqli_fetch_array($result)){
-        $can_log_in = $row[0];
+    $sql = "SELECT * FROM Users";
+
+    $result = $conn->query($sql);
+
+    $can_log_in = 0;
+
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            $can_log_in = 1;
+        }
+    } else {
+        echo "0 results";
     }
+    $conn->close();
 
-    mysqli_close($conn); // close the connection
-
-    // log in success
-    if($can_log_in == 1) {
-
-    }
+    
 
 
 } else {
@@ -73,9 +80,9 @@ if($can_log_in == 1) {
     header('location:../login.php');
 }
 
-//echo json_encode($response_array); // return => {"logged_in" : "error"}
-//
-//$response_array['logged_in'] = null;
-//
-//unset($_POST['email'] );
-//unset($_POST['password'] );
+echo json_encode($response_array); // return => {"logged_in" : "error"}
+
+$response_array['logged_in'] = null;
+
+unset($_POST['email'] );
+unset($_POST['password'] );

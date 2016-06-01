@@ -58,7 +58,7 @@ session_start();
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
-                <img src="../_images/logo.png" class="img-responsive">
+                <img src="images/logo.png" class="img-responsive">
 
             </a>
         </div>

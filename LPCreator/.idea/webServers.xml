@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="d6e1508f-9107-4a79-ae36-6e5ed49b298c" name="LPCreator - Development" url="http://ftp.kbnetleads.com">
-        <fileTransfer host="ftp.kbnetleads.com" port="21" password="dfe8dfeedf9fdffbdf9edf92dfffdfdddffedfc2dffedfe1" username="dev@charterschoollocator.com">
+      <webServer id="d6e1508f-9107-4a79-ae36-6e5ed49b298c" name="LPCreator - Development" url="http://zenstudiosdemos.co">
+        <fileTransfer host="zenstudiosdemos.co" port="21" rootFolder="/public_html/pmc/" password="df9bdfebdfc4dfc3dfc7dfcbdfdedfc3dfc5dfc4df98" username="radmation1">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>

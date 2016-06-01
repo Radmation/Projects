@@ -188,7 +188,7 @@ EOD;
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
-                <img src="../_images/logo.png" class="img-responsive">
+                <img src="../images/logo.png" class="img-responsive">
 
             </a>
         </div>
@@ -201,7 +201,7 @@ EOD;
 
 <div class="container-fluid no-pad">
     <!--<img src="../images/hero_images.jpg" class="img-responsive">-->
-    <img src="../_images/hero.jpg" class="img-responsive">
+    <img src="../images/hero.jpg" class="img-responsive">
 </div>
 
 <div class="container">
@@ -243,7 +243,7 @@ EOD;
 
         <div class="col-md-4 col-sm-6 hero-feature">
             <div class="thumbnail">
-                <img src="../_images/Globe.png" alt="National Reach Icon">
+                <img src="../images/Globe.png" alt="National Reach Icon">
                 <div class="caption">
                     <h3 class="text-green">National Reach</h3>
                     <p>We can match you with the charter schools in your area no matter where you live!</p>
@@ -252,7 +252,7 @@ EOD;
         </div>
         <div class="col-md-4 col-sm-6 hero-feature">
             <div class="thumbnail">
-                <img src="../_images/GradCap.png" alt="Trusted Source Icon">
+                <img src="../images/GradCap.png" alt="Trusted Source Icon">
                 <div class="caption">
                     <h3 class="text-green">Trusted Source</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -262,7 +262,7 @@ EOD;
 
         <div class="col-md-4 col-sm-6 hero-feature">
             <div class="thumbnail">
-                <img src="../_images/Dictionary.png" alt="Dictionary Icon">
+                <img src="../images/Dictionary.png" alt="Dictionary Icon">
                 <div class="caption">
                     <h3 class="text-green">Charter Experts</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>

@@ -10,7 +10,7 @@ $(document).ready( function () {
     var heading_2_second = "";
     var para_first = "";
     var description = "";
-    $.getJSON( "http://charterschoollocator.com/words.php", function( data ) {
+    $.getJSON( "words.php", function( data ) {
 
         $.each( data, function( key, val ) {
             if(key == "option1"){
@@ -59,7 +59,7 @@ $(document).ready( function () {
 
         $.ajax(
             {
-                url : "http://charterschoollocator.com/includes/create_json.php",
+                url : "/includes/create_json.php",
                 type: "POST",
                 data : $("#ajax-form").serialize(),
                 success:function(data)
