@@ -44,6 +44,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="Paper Cups - Godaddy - Production">
+        <serverdata>
+          <mappings>
+            <mapping deploy="" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="ROOT-kb-demos">
         <serverdata>
           <mappings>

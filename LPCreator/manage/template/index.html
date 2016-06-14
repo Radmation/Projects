@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Option 1 Option 2</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/heroic-features.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="nav-bar">
+
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img src="../../_images/logo.png" class="img-responsive">
+
+            </a>
+        </div>
+        <p class="navbar-text navbar-right pad-right">
+            <a href="#" class="navbar-link">
+            </a> <!-- $_SESSION['username']; -->
+        </p>
+    </div>
+</nav>
+
+<div class="container-fluid no-pad">
+    <!--<img src="../images/hero_images.jpg" class="img-responsive">-->
+    <img src="../../_images/hero.jpg" class="img-responsive">
+</div>
+
+<div class="container">
+
+    <div class="col-md-10 col-sm-12 col-xs-12">
+        <h1 class="text-green">Header</h1>
+        <p class="descriptor">A charter school is an independently run public school granted greater flexibility in its operations, in return for greater accountability for performance. The "charter" establishing each school is a performance contract detailing the school's mission, program, students served, performance goals, and methods of assessment.</p>
+    </div>
+
+    <div class="col-md-6" id="form_wrap">
+        <form class="form" id="lead_form" action="../includes/collect_lead.php" method="POST">
+            <h2 class="text-white">Sign Up Today!</h2>
+            <div class="form-group">
+                <input class="form-control" type="text" id="firstName" name="firstName" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" id="lastName" name="lastName" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" id="phone" name="phone" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" id="address" name="address" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" id="zip" name="zip" placeholder="Zip Code">
+            </div>
+            <div class="form-group">
+                <button class="form-control btn btn-success" type="submit">Find Charter Schools</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-10 col-sm-12 col-xs-12">
+        <h2 class="text-green">Let's Find Your Match!</h2>
+    </div>
+
+    <div class="row text-center">
+
+        <div class="col-md-4 col-sm-6 hero-feature">
+            <div class="thumbnail">
+                <img src="../../_images/Globe.png" alt="National Reach Icon">
+                <div class="caption">
+                    <h3 class="text-green">National Reach</h3>
+                    <p>We can match you with the charter schools in your area no matter where you live!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 hero-feature">
+            <div class="thumbnail">
+                <img src="../../_images/GradCap.png" alt="Trusted Source Icon">
+                <div class="caption">
+                    <h3 class="text-green">Trusted Source</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 hero-feature">
+            <div class="thumbnail">
+                <img src="../../_images/Dictionary.png" alt="Dictionary Icon">
+                <div class="caption">
+                    <h3 class="text-green">Charter Experts</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- end row -->
+
+
+</div>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+<!-- validation -->
+<script src="../js/jquery.validate.min.js"></script><!-- for form validation -->
+<script src="../js/additional-methods.min.js"></script><!-- for US phone number validation -->
+<script src="../js/validate.js"></script><!-- my validation-->
+
+</body>
+</html>

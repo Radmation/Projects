@@ -1,8 +1,57 @@
 {
-  "option1" : [
-    "Spokane"
+  "option1" :[
+    "Custom Paper Cups",
+"Another Test"
   ],
   "option2" : [
-    "Charter Schools"
+    "16oz"
+  ],
+  "main_cta" : [
+  "Sub Heading"
+  ],
+  "slider_p" : [
+  "ADonec elementum mollis magna id aliquet. Etiam eleifend urna eget sem sagittis feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+  ],
+  "edit_button_1" : [
+  "REQUEST A FREE QUOTE"
+  ],
+  "first_h2" : [
+  "Let us help you<br>BOOST YOUR BRAND!"
+  ],
+  "second_h2" : [
+  "Request A Free Quote."
+  ],
+  "first_p" : [
+  "The average disposable paper cup or container is used for 40 minutes and viewed by over 30 people. Now that’s effective marketing wouldn’t you agree? Say goodby to stock cups and start building your brand today. Here at PrintMyCup.com we can help you Boost Your Brand with a high quality print at an affordable price."
+  ],
+  "submit" : [
+  "Get My Quote Now"
+  ],
+  "section2_heading" : [
+  "We can provide all your cup needs"
+  ],
+  "sec2_paragraph" : [
+  "Duis bibendum diam non erat facilaisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu.  Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet."
+  ],
+  "one_description" : [
+  "Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac  neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id  orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a."
+  ],
+  "second_description" : [
+  "Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac  neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id  orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a."
+  ],
+  "third_description" : [
+  "Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac  neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id  orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a."
+  ],
+  "fourth_description" : [
+  "Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac  neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id  orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a."
+  ],
+  "fifth_description" : [
+  "Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac  neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id  orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a."
+  ],
+  "sixth_description" : [
+  "Nunc accumsan hendrerit nunc, ac venenatis magna facilisis quis. Ut sit amet mi ac  neque sodales facilisis. Nullam tempus fermentum lorem nec interdum. Ut id  orci id sapien imperdiet vehicula. Etiam quis dignissim ante. Donec convallis tincidunt ligula, ac luctus mi interdum a."
+  ],
+  "description" : [
+  "o1 test o2"
   ]
 }

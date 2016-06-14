@@ -10,6 +10,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="38ecf463-8398-4e56-b5dc-91810ccb5bd2" name="Paper Cups - Godaddy - Production" url="http://50.62.36.1">
+        <fileTransfer host="50.62.36.1" port="21" password="dfebdfc4dfc3dfc7dfcbdfdedfc3dfc5dfc4df9bdf8b" username="radleyhosting">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
