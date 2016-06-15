@@ -40,16 +40,7 @@ if( !isset($_POST['name']) ||
 } else {
     // lead data came through okay - insert into db or excel form
 
-    // connect to db
-//    $host = "localhost";
-//    $username = "radley";
-//    $password = "1Animation2";
-//    $db_name = "custompapercup";
 
-    $host = "68.178.217.38";
-    $username = "radcustompaper";
-    $password = "Y38HWcEeGPExvG4J!";
-    $db_name = "radcustompaper";
 
     // create connection object
     $conn = new mysqli($host, $username, $password, $db_name);

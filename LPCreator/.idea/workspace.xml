@@ -22,12 +22,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create_json.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create_json.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/includes/create_json.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="8908">
               <caret line="728" column="32" selection-start-line="728" selection-start-column="32" selection-end-line="728" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_leads.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage/includes/update_leads.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <marker date="1466002452487" expanded="true" signature="880:934" placeholder="SELECT * FRO... Leads" />
+                <marker date="1466002452487" expanded="true" signature="3198:3260" placeholder="UPDATE Leads... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,7 +48,7 @@
       <file leaf-file-name="creator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage/creator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="493">
               <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
               <folding>
                 <marker date="1465946867438" expanded="true" signature="11731:12064" placeholder="..." />
@@ -93,11 +106,8 @@
         <option value="$PROJECT_DIR$/manage/front-end/js/radley.js" />
         <option value="$PROJECT_DIR$/manage/front-end/js/main.js" />
         <option value="$PROJECT_DIR$/manage/css/dashboard-styles.css" />
-        <option value="$PROJECT_DIR$/manage/includes/connect_db.php" />
-        <option value="$PROJECT_DIR$/manage/includes/update_leads.php" />
         <option value="$PROJECT_DIR$/manage/front-end/css/main.css" />
         <option value="$PROJECT_DIR$/manage/front-end/index.html" />
-        <option value="$PROJECT_DIR$/manage/includes/collect_lead.php" />
         <option value="$PROJECT_DIR$/manage/front-end/thank-you.html" />
         <option value="$PROJECT_DIR$/manage/includes/analyticstracking.php" />
         <option value="$PROJECT_DIR$/manage/leads.php" />
@@ -105,6 +115,9 @@
         <option value="$PROJECT_DIR$/manage/creator.php" />
         <option value="$PROJECT_DIR$/manage/js/rad.js" />
         <option value="$PROJECT_DIR$/manage/includes/create_json.php" />
+        <option value="$PROJECT_DIR$/manage/includes/collect_lead.php" />
+        <option value="$PROJECT_DIR$/manage/includes/connect_db.php" />
+        <option value="$PROJECT_DIR$/manage/includes/update_leads.php" />
       </list>
     </option>
   </component>
@@ -177,6 +190,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="manage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LPCreator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LPCreator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,16 +293,16 @@
       <workItem from="1464800191460" duration="19059000" />
       <workItem from="1465057292205" duration="13181000" />
       <workItem from="1465525082523" duration="12000" />
-      <workItem from="1465604423796" duration="34410000" />
+      <workItem from="1465604423796" duration="35039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73303000" />
+    <option name="totallyTimeSpent" value="73932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2040" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22982885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14608802" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -590,27 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/includes/collect_lead.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="94" column="14" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="14" />
-          <folding>
-            <marker date="1465873301197" expanded="true" signature="3192:3530" placeholder="INSERT INTO Leads... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/includes/update_leads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1490">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="2" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <marker date="1465787412906" expanded="true" signature="1137:1191" placeholder="SELECT * FRO... Leads" />
-            <marker date="1465787412906" expanded="true" signature="3455:3517" placeholder="UPDATE Leads... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/words.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -635,9 +645,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manage/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="111" column="58" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
+          <folding>
+            <element signature="e#2583#2599#0#PHP" expanded="true" />
+            <marker date="1465880434111" expanded="true" signature="3200:3219" placeholder="SELECT * FRO... Leads" />
+            <marker date="1465880434111" expanded="true" signature="3200:3238" placeholder="SELECT * FRO... Leads" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/words.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manage/creator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="493">
           <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
           <folding>
             <marker date="1465946867438" expanded="true" signature="11731:12064" placeholder="..." />
@@ -651,48 +681,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/leads.php">
+    <entry file="file://$PROJECT_DIR$/manage/includes/collect_lead.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="111" column="58" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
+        <state relative-caret-position="338">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#2583#2599#0#PHP" expanded="true" />
-            <marker date="1465880434111" expanded="true" signature="3200:3219" placeholder="SELECT * FRO... Leads" />
-            <marker date="1465880434111" expanded="true" signature="3200:3238" placeholder="SELECT * FRO... Leads" />
+            <marker date="1466002424061" expanded="true" signature="2915:3253" placeholder="INSERT INTO Leads... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/includes/connect_db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="159" column="4" selection-start-line="159" selection-start-column="4" selection-end-line="159" selection-end-column="37" />
+        <state relative-caret-position="134">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <marker date="1465787383975" expanded="true" signature="1353:1395" placeholder="SELECT * FRO... Users" />
-            <marker date="1465787383975" expanded="true" signature="1353:1422" placeholder="SELECT * FRO... Users" />
-            <marker date="1465787383975" expanded="true" signature="2058:2115" placeholder="UPDATE Users... " />
-            <marker date="1465787383975" expanded="true" signature="2506:2548" placeholder="SELECT * FRO... Users" />
-            <marker date="1465787383975" expanded="true" signature="2747:2808" placeholder="UPDATE Users... " />
-            <marker date="1465787383975" expanded="true" signature="3084:3159" placeholder="UPDATE Users... " />
-            <marker date="1465787383975" expanded="true" signature="3433:3489" placeholder="SELECT * FRO... Users" />
-            <marker date="1465787383975" expanded="true" signature="3678:3727" placeholder="UPDATE Users... " />
+            <marker date="1466002435741" expanded="true" signature="1129:1171" placeholder="SELECT * FRO... Users" />
+            <marker date="1466002435741" expanded="true" signature="1129:1198" placeholder="SELECT * FRO... Users" />
+            <marker date="1466002435741" expanded="true" signature="1834:1891" placeholder="UPDATE Users... " />
+            <marker date="1466002435741" expanded="true" signature="2282:2324" placeholder="SELECT * FRO... Users" />
+            <marker date="1466002435741" expanded="true" signature="2523:2584" placeholder="UPDATE Users... " />
+            <marker date="1466002435741" expanded="true" signature="2860:2935" placeholder="UPDATE Users... " />
+            <marker date="1466002435741" expanded="true" signature="3209:3265" placeholder="SELECT * FRO... Users" />
+            <marker date="1466002435741" expanded="true" signature="3454:3503" placeholder="UPDATE Users... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/words.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/includes/create_json.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="8908">
           <caret line="728" column="32" selection-start-line="728" selection-start-column="32" selection-end-line="728" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/includes/update_leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1466002452487" expanded="true" signature="880:934" placeholder="SELECT * FRO... Leads" />
+            <marker date="1466002452487" expanded="true" signature="3198:3260" placeholder="UPDATE Leads... " />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -17,15 +17,7 @@ $allowed_count = 5;
  * Time: 11:06 AM
  */
 
-//$host = "localhost";
-//$username = "radley";
-//$password = "1Animation2";
-//$db_name = "custompapercup";
 
-$host = "68.178.217.38";
-$username = "radcustompaper";
-$password = "Y38HWcEeGPExvG4J!";
-$db_name = "radcustompaper";
 
 
 $email = "";
