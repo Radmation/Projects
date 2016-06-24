@@ -92,15 +92,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
             <?php
 
             // connect to db
-//            $host = "localhost";
-//            $username = "radley";
-//            $password = "1Animation2";
-//            $db_name = "custompapercup";
 
-            $host = "68.178.217.38";
-            $username = "radcustompaper";
-            $password = "Y38HWcEeGPExvG4J!";
-            $db_name = "radcustompaper";
 
             // Create connection
             $conn = new mysqli($host, $username, $password, $db_name);
